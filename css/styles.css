@@ -1,0 +1,77 @@
+:root {
+  --text-color: #212121;
+  --fundal: #ffffff;
+  --evidentiere: #2196f3;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+a:hover,
+a:focus {
+  color: var(--evidentiere);
+}
+
+button:hover,
+button:focus {
+  color: rgba(255, 255, 255, 1);
+  background-color: var(--evidentiere);
+}
+
+.set_header {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.set_footer {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.titlul_principal {
+  font-size: 44px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.descriptiontitle {
+  font-weight: 700;
+}
+
+button {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.fontmic {
+  font-size: 14px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #2196f3;
+}
+
+p {
+  line-height: 24px;
+}
+
+.textgri {
+  color: #757575;
+  font-weight: 400;
+}
+
+/*Am adăugat culoare pe fundal în prima secțiune, pentru a se observa și titlul*/
+.topsection{
+  background-color: #2F303A 
+}
